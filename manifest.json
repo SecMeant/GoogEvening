@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "GoogEvening",
-	"version": "1.0",
+	"version": "1.1",
 
 	"description": "Adds a dark background to google search site",
 
@@ -11,7 +11,7 @@
 
 	"content_scripts": [
 		{
-			"matches": ["*://www.google.com/search*"],
+			"matches": ["*://www.google.com/search*", "*://www.google.com/"],
 			"js": ["GoogEvening.js"]
 		}
 	]
